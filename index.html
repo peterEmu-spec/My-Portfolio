@@ -7,9 +7,12 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         body{
+            background-size: cover;
             background-image: url(images/portfolio.webp);
             background-repeat: no-repeat;
             background-attachment: fixed;
+            padding: 0 10px;
+            min-height: 100vh;
 
         }
     </style>
@@ -19,7 +22,7 @@
     <h1>Peter's Portfolio</h1>
     <section class="home">
     <h2>Home</h2>
-    <img src="images/Kimani.jpeg" alt="Kimani">
+    <img class="fx" src="images/Kimani.jpeg" alt="Kimani">
     <p>
       My full names are Peter Emu Kimani a passionate and result driven Software Engineer.
        <br>I have a strong foundation in full stack web development and cloud infrastructure
@@ -28,18 +31,18 @@
     <section>
         <!--about-->
         <h2>About</h2>
-        <p>
+        <p class="about">
             I specialize in translating complex business requirements into clean,efficient and inovative software solutions. 
             <br>Personally programming is more than just writing code ..to me it is the art of solving problems and building the future with logic and creativity.I studied software engineering as a degree course in the university and came to moringa to sharpen my technical skills. 
             <br>Programming is Empowering! 
         </p>
     </section>
-    <section>
+    <section class="skills">
         <!--skills-->
         <h2>Skills</h2>
         <h3><u>Technical</u></h3>
         <p>
-            <ul>
+            <ul class="about">
            <li>Programming Languages: Python, JavaScript, Java, C++, Go</li>
            <li>Web Development: HTML5, CSS3, React, Angular, Node.js, Express.js </li>
            <li>Databases: MySQL, PostgreSQL, MongoDB, Firebase</li>
@@ -50,9 +53,9 @@
         </p>
         <h3><u>Non-Technical</u></h3>
         <p>
-            <ul>
+            <ul class="about">
                 <li>Adaptability</li>
-                <li>Tima Management</li>
+                <li>Time Management</li>
                 <li>Leadership</li>
                 <li>Negotiation skills</li>
             </ul>
@@ -78,6 +81,11 @@
             <input class="submit" type="button"  value="Submit">
         </p>
     </section>
+    <h3>Where to find me</h3>
+    <footer class="navigation">
+        <a  href="https://github.com/peterEmu-spec"target="_blank"><img class="github"
+            src="images/github-sign.png" alt="github"></a>
+    </footer>
 
     
 </body>
